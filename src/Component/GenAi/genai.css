@@ -1,0 +1,17 @@
+.container {
+  background: url("/public/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sub-container {
+  background-color: rgba(180, 187, 187, 0.67);
+  backdrop-filter: blur(0.1);
+}
+
+.gradient-text {
+  background: linear-gradient(1800deg, #6bd5ed, #6894ca 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
